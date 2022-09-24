@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Web test</title>
+
+</head>
+<body >
+    <header id="head">
+        <nav id="navbar">
+            <div class="container">
+                <!-- <h1><a href="/img/index.html">欢迎来到EXO_PLANT</a></h1> -->
+                    <img src="LOGO.png" id="logo">
+                <ul>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#part1">Targets</a></li>
+                    <li><a href="#part2">Investigation</a></li>
+                    <li><a href="#part3">Optimization</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- bg photo -->
+    <div class="demo" id="Home">
+        <div class="bgphoto"><img src="./Let’s start_.png" id="bgphoto" width="100%"> </div>
+        <a href="#load"><div class="start"></div></a>
+    </div>
+    <!-- loading -->
+    <!-- <div class="loading"> </div> -->
+    <!-- loading -->
+    <div class="loading" id="load">
+        <div class="ld-photo"><img src="./loading.png" width="100%"></div>
+        <div class="loadingThree">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- home -->
+    <div class="home">
+        <div class="photo"><img src="./first.png" width="85%"></div>
+        <!-- part1 -->
+        <a href="#part1">
+            <div class="box1" > 
+                <div class="photo1">
+                   <img src="./home-1.png" width="70%">
+                </div>
+                <div class="text"><h3>TARGETS</h3></div>
+            </div>
+        </a>
+        <!-- part2 -->
+        <a href="#part3">
+            <div class="box2"> 
+                <div class="photo2"><img src="./home-2.png" width="70%"></div>
+                <div class="text"><h3>OPTIMIZATIONS</h3></div>
+            </div>
+        </a>
+        <!-- part3 -->
+        <a href="#part2">
+            <div class="box3">
+                <div class="photo3"><img src="./home-3.png" width="65%"></div>
+                <div class="text"><h3>INVESTIGATIONS</h3></div>
+            </div>
+        </a>
+    </div>
+
+    <!-- part 1 -->
+    <div class="first" id="part1">
+        <div class="first-photo"><img src="./photo-1.png" width="90%"></div> 
+
+            <div class="box1">
+                <div class="photo1">
+                    <a href="#show1"><img src="./01-1.png" width="100%"></a>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="photo2">
+                     <a href="#show2"><img src="./01-2.png" width="100%"></a>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="photo3">
+                    <a href="#show3"><img src="./01-3.png" width="100%"></a>
+                </div>
+            </div>
+    </div>
+    <!-- part 1-hidden  -->
+        <div class="hidden1" id="show1">
+            <a href="#part1"><img src="./01-box1.png" width="90%"></a>
+            <div class="text">
+                ####
+            </div>
+        </div>
+        <div class="hidden2" id="show2">
+            <a href="#part1"><img src="./01-box2.png" width="90%"></a>
+            <div class="text">
+                ####
+            </div>
+        </div>
+        <div class="hidden3" id="show3">
+            <a href="#part1"><img src="./01-box3.png" width="90%"></a>
+            <div class="text">
+                ####
+            </div>
+        </div>
+    <!-- part 3 -->
+    <div class="second" id="part2">
+        <div class="second-photo"><img src="./photo-2.png" width="100%"></div>
+    </div>
+    <!-- part 2 -->
+    <div class="third" id="part3">
+        <div class="third-photo"><img src="./photo-3.png" width="90%"></div> 
+            <div class="box1">
+                <div class="photo1">
+                    <a href="#show4"><img src="./03-1.png" width="100%"></a>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="photo2">
+                    <a href="#show5"><img src="./03-2.png" width="100%"></a>
+                </div>
+            </div>
+            <div class="box3">
+                <div class="photo3">
+                    <a href="#show6"><img src="./03-3.png" width="100%"></a>
+                </div>
+            </div>
+    </div>
+
+    <!-- part 3-hidden -->
+    <div class="hide">
+        <div class="hidden4" id="show4">
+            <a href="#part3"><img src="./03-box.png" width="90%"></a>
+            <div class="vedio">
+                ####
+            </div>
+        </div>
+        <div class="hidden5" id="show5">
+                <a href="#part3"><img src="./03-box.png" width="90%"></a>
+                <div class="vedio">
+                    ####
+                </div>
+        </div>
+        <div class="hidden6" id="show6">
+                <a href="#part3"><img src="./03-box.png" width="90%"></a>
+                <div class="vedio">
+                    ####
+                </div>
+        </div>
+    </div>
+    <!-- end <div class="ending">
+        <div class="logo">
+            <img src="LOGO.png" id="logo">
+        </div>
+    </div>-->
+    
+</body>
+</html>
+
+<!-- <style type="text/css">
+#show{display:none;}
+#show:target{background:orange; display:block;}
+#hide:target{display:none;}
+</style>
+ 
+<a href="#show">点击显示</a>
+ 
+<div id="hide">
+    <div id="show">
+        happy birthday!
+        <a href="#hide">点击隐藏</a>
+    </div>
+</div> -->
